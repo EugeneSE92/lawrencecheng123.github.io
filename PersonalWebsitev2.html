@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Lawrence Cheng</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	
+	<!--Font-Awesome Information-->
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	
+	<style>
+		.navbar-brand {
+			font-size:1.8em;
+			}
+			
+		.topContainer {
+			background-image:url("backgroundPic1.png");
+			height:800px;
+			width:100%;
+			background-size:cover;
+		}
+		.thirdPage {
+			background-image:url("LynbrookHigh.png");
+			height:400px;
+			width:100%;
+			background-size:cover;
+		}
+		
+		.fourthPage {
+			background-image:url("lab.png");
+			height:770px;
+			width:100%;
+			background-size:cover;
+		}
+		
+		
+		#myImage {
+			background-image:url("LawrencePic.png");
+			height:300px;
+			width:200px;
+		}
+		
+		#botContainer {
+			background-image:url("LawrencePic.png")
+			height: 300px;
+			width:100%;
+			background-size:center-left;
+		}
+		
+		#topRow {
+		margin-top:250px;
+		text-align:center;
+		color:black;
+		}
+		
+		#topRow h1 {
+		font-size: 500%;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+	
+		#emailSignup {
+			margin-top:50px;
+			}
+		
+		.bold {
+			font-weight:bold;
+		}
+		.italic {
+			font-style:italic;
+		}
+		
+		.paddingTop{
+			margin-top:20px;
+		}
+		
+		#wrap .col {
+			float:left;
+		}
+		
+		.center{
+		text-align:center;
+		}
+		
+		.title {
+			margin-top:100px;
+			font-size:300%;
+			}
+			
+		#footer {
+			background-color:#B0D1FB;
+			width:100%;
+		}
+		
+		#foot {
+		clear: left;
+		}
+		
+		.marginBottom{
+			margin-bottom:30px;
+		}
+		
+		.LImage{
+		width:250px;
+		height:300 px;}
+		
+		.border
+		{
+		border-style:solid;
+		border-color:#287EC7;
+		background-color:white;
+		opacity:0.75;
+		<!--border-radius: 50px/40px;-->
+		}
+		
+		#rectangle{
+		width:720px;
+		height:100px;
+		background:blue;
+		position:relative;
+		bottom: 140px;
+		}
+		
+		.firstPage {
+			width: 100%;
+			height: 770px;
+			background-color: #34495e;
+			background-size:cover;
+			}
+		.content {
+			  width: 237px; font-size: 36px; line-height: 40px;
+			  font-family: 'Muli'; color: #ecf0f1; height: 40px;
+			  position: relative; top: 60%; left: 50%;
+			  top: -20px; margin-left: -118px;
+		
+		}
+		
+		.content:before {
+			  content: '['; position: relative;
+			  left: -120px; line-height: 40px;
+			  top: 40px;
+		}
+		.content:after {
+			  content: ']'; position: relative;
+			  right: -118px; line-height: 40px;
+			  top:40px;
+		}
+	.content:after,
+	.content:before {
+	  color: white; font-size: 42px;
+	  animation: 2s linear 0s normal none infinite opacity;
+	  -webkit-animation: 2s ease-out 0s normal none infinite opacity;
+	  -moz-animation: 2s ease-out 0s normal none infinite opacity;
+	  -o-animation: 2s ease-out 0s normal none infinite opacity;
+	  
+	}
+	.visible {
+	  float: left; font-weight: 600;
+	  overflow: hidden; height: 40px;
+	  
+	}
+	p {
+	  display: inline; float: left;
+	  margin: 0;
+	}
+	ul {
+	  margin-top: 0; padding-left: 110px;
+	  text-align: left; list-style: none;
+	  animation: 6s linear 0s normal none infinite change;
+	  -webkit-animation: 6s linear 0s normal none infinite change;
+	  -moz-animation: 6s linear 0s normal none infinite change;
+	  -o-animation: 6s linear 0s normal none infinite change;
+	}
+	ul li {
+	  line-height: 40px;
+	  margin: 0;
+		}
+		
+		 @-webkit-keyframes change {
+			  0%   {margin-top:0;} 15%  {margin-top:0;}
+			  25%  {margin-top:-40px;} 40%  {margin-top:-40px;}
+			  50%  {margin-top:-80px;} 65%  {margin-top:-80px;}
+			  75%  {margin-top:-40px;} 85%  {margin-top:-40px;}
+			  100% {margin-top:0;}
+			}
+			
+	.btn {
+		<button type="button">
+		</button>
+		
+		img {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+		}
+	}
+			
+		
+	</style>
+	
+  </head>
+  
+  <body data-spy="scroll" data-target=".navbar-collapse">
+  
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	
+		<div class="container">
+		
+			<div class ="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand">LCheng </a>
+			</div>
+			
+			
+			<div class="collapse navbar-collapse">
+			
+				<ul class="nav navbar-nav">
+					<!--<li class="active"><a href="#home">Home</a></li>-->
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#Summary">Summary</a></li>
+					<li><a href="#Experience">Experience</a></li>
+					<li><a href="#Resume">Resume</a></li>
+					<li><a href="#download">Research</a></li>
+					
+				</ul>
+				
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="email" placeholder="Email" class="form-control"/>
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="Password" class="form-control"/>
+					</div>
+					<button type="submit" class="btn btn-success">Log In</button>
+			</div>
+			
+			
+		</div>
+	
+	</div>
+	
+	
+	
+	<div class="container contentContainer topContainer">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3" id = "topRow">
+			<h1>Lawrence Cheng</h1>
+			
+			<div class='content'>
+				<div class='visible'>
+					<p>
+					 I'm a
+					</p>
+				<ul>
+					  <li> Leader</li>
+					  <li> Coder</li>
+					  <li> Creator</li>
+				</ul>
+				</div>
+			</div>
+			<br>
+			
+			</div>
+			<div class="col-md-6 col-md-offset-3 center" >
+			<a href="#bio" class="btn btn-success center">Learn More</a>
+            <a href="mailto:ChengLawrence123@gmail.com?subject=I'd like to see your resume!" class="btn btn-success">Request Resum&eacute;</a>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	<!--About-->
+	<section id="bio" class="bio" style="background-color:black">
+	<div class="container contentContainer">
+		<div class="row" class="center">
+			<h1 class="center title" style="color:#FFCC33">About Lawrence</h1>
+			
+		</div>
+	
+	<div id="wrap">
+		
+		<img src="LawrencePic.png" width="300" height="230" style = "float:left; position:relative; 
+		top: 40px; left: 20px" />
+		<div class="col" style="float: right; width: 55%">
+		<p class="lead" style="color:white">
+			&emsp;I am currently a Senior at Lynbrook High, planning to major in Electrical Engineering. I am heavily involved in scientific lab research, conducting lab research	
+			at institutions such as the University of Iowa in the Rahmatalla Lab, where I tested biomechanical
+			simulations for predicting human motion. I was also involved in the Schaffer Lab at Cornell University,
+			writing MATLAB code to simulate blood flow changes in neural pathways during blood clots caused by 
+			neurodegenerative diseases. I have also worked on and filed patents for independent projects, such as a health monitor that
+			can detect when respiratory blockage occurs and send out warning signals. 
+		</p>
+		</div>
+	</div>
+		
+		<p class="lead" style="color:white">
+			&emsp; Outside the realm of science, I also enjoy volunteering at the American Red Cross in my free time.
+			Currently, I am the Health and Safety Coordinator on the Silicon Valley Red Cross Youth Executive Board, 
+			teaching Basic Aid Training classes with CPR and First-Aid skills to Cub Scout troops. I am officially certified in 
+			CPR/AED/First-Aid and I have over 200 hours of community service. I also enjoy mountain biking when I have the
+			chance, going to spots like Fremont Older when the weather is nice.
+		</p>
+		
+		<p class="lead" style="color:white"><strong>
+			&emsp; To contact me for relevant internship and job opportunities or to request my resume, please
+			email me at <a style="color:#FFCC33" href="mailto:ChengLawrence123@gmail.com">ChengLawrence123@gmail.com</a>
+			or message me on <a style="color:#FFCC33" href="https://www.linkedin.com/in/lawrencecheng1">LinkedIn</a>
+		</strong></p>
+		
+		</div>
+		
+	</section>
+		
+	<section id="edu" class="edu">
+	<div class="container contentContainer thirdPage">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 center" >
+			<h1 class="title bold" >Education</h1>
+			
+			</div>
+			<!-- <a href="#bio" class="btn center">Learn More</a>
+            <a href="mailto:ChengLawrence123@gmail.com?subject=I'd like to see your resume!" class="btn btn-dark btn-lg">Request Resum&eacute;</a>
+			-->
+		</div>
+		
+	    <div class="row marginBottom">
+			<div class="col-md-4 marginTop">
+			<h2><span class="glyphicon glyphicon-music"></span> Lynbrook High School</h2>
+			<p>Located in the heart of Silicon Valley, this high school is among the top STEM schools in
+			the entire United States. I have attended this school from 9th to 12th grade, and I will
+			be graduating in June 2016.</p>
+			<button class="btn btn-success marginTop">Learn More</button>
+			<!--Put in a link to the school website here and change the glyphicon-->
+			</div>
+			<br>
+		<div class="col-md-4">
+				<h2><span class="glyphicon glyphicon-off"></span> Relevant Courses</h2>
+				<p>Here are some of the relevant courses that I have taken during my time at Lynbrook High and at 
+				other institutions:</p>
+				
+			<div class="bold">
+				<p>Lynbrook High: </p>
+			</div>
+				<br>
+				<li>AP Biology</li>
+				<li>AP Physics C: Mechanics</li>
+				<li>AP Computer Science</li>
+				<li>AP Chemistry</li>
+				<li>AP Calculus BC</li>
+				<li>AP Statistics</li>
+			<div class="col" style="float: right; width: 55%; position: relative; bottom: 110px">
+				<p class = "bold"> University of Iowa: </p>
+				<br>
+				<p> SSTP Research Course (3 Credit-Hours)</p>
+				<br>
+				<p class="bold"> Foothill College: </p>
+				<br>
+                 <p>Social Psychology (PSYC 30 - 5 Credit Hours)</p>
+			</div>
+			
+		</div>
+		
+			
+			<div class="col-md-4">
+			<h2><span class="glyphicon glyphicon-pencil"></span> Grades & Test Scores</h2>
+			<p>GPA: 4.0/4.0 (uw)</p> <br>
+			<p>SAT 1: 2350 (CR: 760, WR: 790, M: 800</p> <br>
+			<p>SAT 2 Math: 800</p> <br>
+			<p>SAT 2 Bio M: 790
+			
+			</div>
+		</div> 
+		
+		
+	</div>
+	</section>
+	
+	<section id="lab" class="lab">
+	<div class="container contentContainer fourthPage">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 center" >
+			<h1 class="title bold" >My Research</h1>
+			
+			</div>
+		</div>
+	</div>
+	</section>	
+		
+		
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$(".contentContainer").css("height", $(window).height());
+	</script>
+	
+  </body>
+</html>
