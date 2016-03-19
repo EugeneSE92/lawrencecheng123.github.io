@@ -176,12 +176,12 @@
 		
 		.content:before {
 			  content: '['; position: relative;
-			  left: -120px; line-height: 40px;
+			  left: -127px; line-height: 40px;
 			  top: 40px;
 		}
 		.content:after {
 			  content: ']'; position: relative;
-			  right: -118px; line-height: 40px;
+			  right: -125px; line-height: 40px;
 			  top:40px;
 		}
 	.content:after,
@@ -203,7 +203,7 @@
 	  margin: 0;
 	}
 	#animation {
-	  margin-top: 0; padding-left: 110px;
+	  margin-top: 0; padding-left: 99px;
 	  text-align: left; list-style: none;
 	  animation: 6s linear 0s normal none infinite change;
 	  -webkit-animation: 6s linear 0s normal none infinite change;
