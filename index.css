@@ -176,7 +176,7 @@
 		
 		.content:before {
 			  content: '['; position: relative;
-			  left: -127px; line-height: 40px;
+			  left: -124px; line-height: 40px;
 			  top: 40px;
 		}
 		.content:after {
