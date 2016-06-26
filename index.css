@@ -30,7 +30,8 @@
 		
 		.fourthPage {
 			/*background-image:url("labpicupdated.png");*/
-			background-color:#4d79ff;
+			/*background-color:#4d79ff; */
+			background-color:#0000b3; 
 			height:300px;
 			width:100%;
 			background-size:cover;
@@ -40,6 +41,13 @@
 			background-image:url("earth.jpg");
 			/*background-color:#B9FDFF;*/
 			height:300px;
+			width:100%;
+			background-size:cover;
+		}
+
+		.sixthPage {
+			background-image:url("programmingImageLight2.png");
+			height: auto;
 			width:100%;
 			background-size:cover;
 		}
@@ -138,6 +146,11 @@
 			position: relative;
 			bottom: 60px;
 		}
+
+		.moveUp2 {
+			position: relative;
+			bottom: 45px;
+		}
 		
 		.LImage{
 		width:250px;
@@ -210,8 +223,14 @@
 	  -moz-animation: 6s linear 0s normal none infinite change;
 	  -o-animation: 6s linear 0s normal none infinite change;
 	}
+
+	ul { margin: 0; 
+		padding:0 20px;
+		}
+
 	ul li {
-	  line-height: 40px;
+	  padding: 0;
+	  line-height: 23px;
 	  margin: 0;
 		}
 		
@@ -279,6 +298,12 @@
 .awards {
 	color:white;
 	font-size:16px;
+}
+
+.project {
+	color:black;
+	font-size:18px;
+	line-height:25px;
 }
 
 
