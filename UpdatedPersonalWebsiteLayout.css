@@ -285,7 +285,9 @@
 			margin-left:30px;
 			position:relative;
 			left: 30px;
-			font-size:250%;
+			font-size: 4.0em;
+			font-weight: 100;
+			font-family: Roboto, sans-serif;
 			}
 			
 		#footer {
