@@ -1,9 +1,5 @@
 /*Lawrence Cheng*/
 
-/*body{
-	min-width: 720px;
-}*/
-
 #right1 {
 	text-align: right;
 }
@@ -34,10 +30,6 @@
 			  top:40px;
 			  font-family: Roboto, sans-serif;
 		}
-
-	.container1 {
-		min-width: 700px;
-	}
 	
 	.visible {
 	  float: left; font-weight: 100;
@@ -148,7 +140,7 @@
 			      rgba(0, 0, 0, 0.55)
 			    ), url("Signature07.jpg");
     height: 100%; 
-    max-width: 100%;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,120 +167,22 @@
 		    background-position: 50%;
 		}
 
-		@media all and (max-width: 1024px) { /* Specific to this particular image */
-		  .topContainer {
-		    height:200%;
-		    width:100%;   /* 50% */
-		    background-size:cover;
-		  }
-		}
-
 		.topContainer {
+			background-image:/* top, transparent black, faked with gradient */ 
+			    linear-gradient(
+			      rgba(0, 0, 0, 0.55), 
+			      rgba(0, 0, 0, 0.55)
+			    ), url("Signature07.jpg");
 			height:800px;
-			min-width: 50%;
-			max-width:100%;
-			background-color:black;
-			background-size:cover;
-			
-		}
-
-		@media only screen and (max-width: 1425px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:950px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 1150px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1050px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 850px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1100px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 762px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1000px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 722px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1100px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 500px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1300px;
-				}
-			
-		}
-
-		
-
-		
-
-		/*@media all and (max-width: 720px) {
-		  .sixthPage {
-			background-image:url("programmingImageLight2.png");
-			height: auto;
-			width:200%;
-			background-size:cover;
-		}
-		} */
-
-		/*.sixthPage {
-			max-height: 800px;
-			max-width:100%;
-			background-color:lightgray;
-			background-size:cover;
-		}
-*/
-
-	.sixthPage {
-			background-image:url("programmingImageLight2.png");
-			/*background-color: lightgray;*/
-			height: 700px;
 			width:100%;
 			background-size:cover;
 		}
 
-		@media only screen and (max-width: 997px)
-		{
-			
-				[class*="sixthPage"]
-				{
-					height:1500px;
-				}
-			
+		.sixthPage {
+			background-image:url("programmingImageLight2.png");
+			height: auto;
+			width:100%;
+			background-size:cover;
 		}
 
 		.internships {
