@@ -323,9 +323,9 @@
 			/*background-color: lightgray;*/
 			background-image:
 			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
-			    ), url("Signature07.jpg");
+			      rgba(0, 0, 0, 0.55), 
+			      rgba(0, 0, 0, 0.55)
+			    ), url("Seattle.jpg");
 			height: 700px;
 			width:100%;
 			background-size:cover;
