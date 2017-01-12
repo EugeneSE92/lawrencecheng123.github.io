@@ -338,8 +338,7 @@
 
 	.sixthPage {
 			/*background-image:url("Signature07.jpg");*/
-		        background-image:/* top, transparent black, faked with gradient */ 
-			     url("programmingImageLight2.png");
+		        background-image:url("programmingImageLight2.png");
 			/*background-color: lightgray;*/
 			height: 700px;
 			width:100%;
