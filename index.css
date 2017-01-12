@@ -25,12 +25,12 @@
 			/*filter: brightness(40%);*/
 		}
 
-		@media only screen and (max-width: 1200px)
+		@media only screen and (max-width: 900px)
 		{
 			
 				[class*="titlePage"]
 				{
-					height:1000px;
+					height:900px;
 				}
 			
 		}
