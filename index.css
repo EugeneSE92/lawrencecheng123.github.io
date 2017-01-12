@@ -1,7 +1,7 @@
 /*Lawrence Cheng*/
 
-/*body {
-	min-width:652px;
+/*body{
+	min-width: 720px;
 }*/
 
 /*html,body
@@ -14,26 +14,26 @@
 }*/
 
 .titlePage {
-	background-image:/* top, transparent black, faked with gradient */ 
-	linear-gradient(
-		rgba(0, 0, 0, 0.5), 
-		rgba(0, 0, 0, 0.5)
-		), url("UpthereHome.png");
-	height:700px;
-	width:100%;
-	background-size:cover;
+		background-image:/* top, transparent black, faked with gradient */ 
+		linear-gradient(
+			rgba(0, 0, 0, 0.55), 
+			rgba(0, 0, 0, 0.55)
+			), url("Signature07.jpg");
+		height: 700px;
+		width:100%;
+		background-size:cover;
+			/*filter: brightness(40%);*/
 		}
-/*
-		@media only screen and (max-width: 900px)
+
+		@media only screen and (max-width: 997px)
 		{
 			
-				[class*="titlePage"]
-				{
-					height:900px;
-				}
+			[class*="titlePage"]
+			{
+				height:800px;
+			}
 			
 		}
-*/
 
 #right1 {
 	text-align: right;
@@ -65,6 +65,10 @@
 			  top:40px;
 			  font-family: Roboto, sans-serif;
 		}
+
+	.container1 {
+		min-width: 700px;
+	}
 	
 	.visible {
 	  float: left; font-weight: 100;
@@ -81,7 +85,30 @@
 			background-image:url("gradPic2.png");
 			height:300px;
 			width:200px;
+			/*float:left;*/
+			/*float: left;
+			position:relative;*/
+			/*left: 20px;*/
 		}
+
+		@media only screen and (max-width: 900px)
+		{
+			
+				[class*="myImage"]
+				{
+					 float: right;
+					 position: relative;
+					 left: -50%; /* or right 50% */
+					 text-align: left;
+				}
+			
+		}
+
+		/*#imagePos {
+			float: left;
+			position:relative;
+			left: 20px;
+		}*/
 		
 		#botContainer {
 			background-image:url("gradPic2.png")
@@ -160,13 +187,25 @@
 		}
 
 		#topRow3 li {
-		margin-top:30px;
+		margin-top: 30px;
 		font-weight: 100;
 		font-size: 2.1em;
 		line-height: 1.2em;
 		font-family: Roboto, sans-serif;
 		color: white;
 		}
+
+		/*@media only screen and (max-width: 900px)
+		{
+			
+				[class*="topRow3"]
+				{
+					 margin-top: 15px;
+					 font-size: 1.5em;
+					 line-height: 0.8em;
+				}
+			
+		}*/
 
 
 .parallax1{
@@ -269,6 +308,16 @@
 			
 		}
 
+		@media only screen and (max-width: 500px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:1300px;
+				}
+			
+		}
+
 		
 
 		
@@ -325,16 +374,6 @@
 			width:100%;
 			background-size:cover;
 		}
-
-		/*@media only screen and (max-width: 653px)
-		{
-			
-				[class*="Upthere"]
-				{
-					height:1000px;
-				}
-			
-		}*/
 
 		.Cornell {
 			background-image:/* top, transparent black, faked with gradient */ 
@@ -414,11 +453,11 @@
 			}
 
 		.title2 {
-			margin-top:130px;
+			margin-top:70px;
 			margin-left:30px;
 			position:relative;
 			left: 30px;
-			font-size:4.4em;
+			font-size:4.0em;
 			font-weight: 100;
 			font-family: Roboto, sans-serif;
 			}
