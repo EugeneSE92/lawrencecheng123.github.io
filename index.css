@@ -366,7 +366,7 @@
 			background-size:cover;
 		}
 
-		.t1 {
+		.front {
 			background-image:/* top, transparent black, faked with gradient */ 
 			    linear-gradient(
 			      rgba(0, 0, 0, 0.75), 
