@@ -16,8 +16,8 @@
 .titlePage {
 	background-image:/* top, transparent black, faked with gradient */ 
 	linear-gradient(
-		rgba(0, 0, 0, 0.75), 
-		rgba(0, 0, 0, 0.75)
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
 		), url("Signature07.jpg");
 	height:700px;
 	width:100%;
