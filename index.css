@@ -319,12 +319,12 @@
 		}
 
 	.fstPage {
-			/*background-image:url("https://lawrencecheng123.github.io/Seattle.jpg");*/
-			background-image:/* top, transparent black, faked with gradient */ 
+			background-image:url("https://lawrencecheng123.github.io/Seattle.jpg");
+			/*background-image:
 			    linear-gradient(
 			      rgba(0, 0, 0, 0.75), 
 			      rgba(0, 0, 0, 0.75)
-			    ), url("https://lawrencecheng123.github.io/Seattle.jpg");
+			    ), url("https://lawrencecheng123.github.io/Seattle.jpg");*/
 			/*background-color: lightgray;*/
 			height: 700px;
 			width:100%;
