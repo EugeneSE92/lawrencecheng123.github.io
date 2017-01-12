@@ -318,27 +318,6 @@
 			
 		}
 
-		
-
-		
-
-		/*@media all and (max-width: 720px) {
-		  .sixthPage {
-			background-image:url("programmingImageLight2.png");
-			height: auto;
-			width:200%;
-			background-size:cover;
-		}
-		} */
-
-		/*.sixthPage {
-			max-height: 800px;
-			max-width:100%;
-			background-color:lightgray;
-			background-size:cover;
-		}
-*/
-
 	.fstPage {
 			background-image:url("programmingImageLight2.png");
 			/*background-color: lightgray;*/
