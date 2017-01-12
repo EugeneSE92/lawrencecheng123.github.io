@@ -323,8 +323,8 @@
 			/*background-color: lightgray;*/
 			background-image:
 			    linear-gradient(
-			      rgba(0, 0, 0, 0.55), 
-			      rgba(0, 0, 0, 0.55)
+			      rgba(0, 0, 0, 0.60), 
+			      rgba(0, 0, 0, 0.60)
 			    ), url("Seattle.jpg");
 			height: 700px;
 			width:100%;
