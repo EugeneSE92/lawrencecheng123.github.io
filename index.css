@@ -339,10 +339,7 @@
 	.sixthPage {
 			/*background-image:url("Signature07.jpg");*/
 		        background-image:/* top, transparent black, faked with gradient */ 
-			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
-			    ), url("programmingImageLight2.png");
+			     url("programmingImageLight2.png");
 			/*background-color: lightgray;*/
 			height: 700px;
 			width:100%;
@@ -369,8 +366,8 @@
 		.front {
 			background-image:/* top, transparent black, faked with gradient */ 
 			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
+			      rgba(0, 0, 0, 0.55), 
+			      rgba(0, 0, 0, 0.55)
 			    ), url("Seattle.JPG");
 			height:800px;
 			width:100%;
