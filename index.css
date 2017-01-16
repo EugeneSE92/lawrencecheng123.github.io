@@ -13,28 +13,6 @@
     overflow-x: hidden;    
 }*/
 
-.titlePage {
-		background-image:/* top, transparent black, faked with gradient */ 
-		linear-gradient(
-			rgba(0, 0, 0, 0.55), 
-			rgba(0, 0, 0, 0.55)
-			), url("Signature07.jpg");
-		height: 700px;
-		width:100%;
-		background-size:cover;
-			/*filter: brightness(40%);*/
-		}
-
-		@media only screen and (max-width: 997px)
-		{
-			
-			[class*="titlePage"]
-			{
-				height:800px;
-			}
-			
-		}
-
 #right1 {
 	text-align: right;
 }
@@ -323,7 +301,7 @@
 			    linear-gradient(
 			      rgba(0, 0, 0, 0.55), 
 			      rgba(0, 0, 0, 0.55)
-			    ), url("Seattle.jpg");
+			    ), url("Signature07.jpg");
 			height: 700px;
 			width:100%;
 			background-size:cover;
