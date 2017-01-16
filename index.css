@@ -299,8 +299,8 @@
 	.fstPage {
 			background-image:
 			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
+			      rgba(0, 0, 0, 0.65), 
+			      rgba(0, 0, 0, 0.65)
 			    ), url("Seattle.jpg");
 			height: 700px;
 			width:100%;
