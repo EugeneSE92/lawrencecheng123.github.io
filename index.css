@@ -494,6 +494,16 @@
 			}
 			
 		}
+
+		@media only screen and (max-width: 670px)
+		{
+			
+			[class*="title2"]
+			{
+				margin-top:35px;
+			}
+			
+		}
 			
 		#footer {
 			background-color:#B0D1FB;
