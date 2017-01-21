@@ -465,13 +465,33 @@
 			font-family: Roboto, sans-serif;
 			}
 
-		@media only screen and (max-width: 1208px)
+		@media only screen and (max-width: 1400px)
 		{
 			
-				[class*="title2"]
-				{
-					margin-top:60px;
-				}
+			[class*="title2"]
+			{
+				margin-top:45px;
+			}
+			
+		}
+
+		@media only screen and (max-width: 1200px)
+		{
+			
+			[class*="title2"]
+			{
+				margin-top:55px;
+			}
+			
+		}
+
+		@media only screen and (max-width: 800px)
+		{
+			
+			[class*="title2"]
+			{
+				margin-top:40px;
+			}
 			
 		}
 			
