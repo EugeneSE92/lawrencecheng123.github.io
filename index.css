@@ -396,6 +396,17 @@
 			background-size:cover;
 		}
 
+		.Berkeley {
+			background-image:/* top, transparent black, faked with gradient */ 
+			linear-gradient(
+				rgba(0, 0, 0, 0.70), 
+				rgba(0, 0, 0, 0.70)
+				), url("berkeleypic.png");
+			height:800px;
+			width:100%;
+			background-size:cover;
+		}
+
 		.Buffer {
 			background-color: #E7B892;
 			height:110px;
