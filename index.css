@@ -60,7 +60,8 @@
 	}
 	
 		#myImage {
-			background-image:url("gradPic2.png");
+			/*background-image:url("gradPic2.png");*/
+			background-image:url("CompressedV.png");
 			height:300px;
 			width:200px;
 			/*float:left;*/
